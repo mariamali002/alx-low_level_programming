@@ -15,6 +15,12 @@ if (i * i > n)
 return (-1);
 return (sqrt(n, i + 1));
 }
+/**
+ * _sqrt_recursion - method to get square of number
+ * @n: number
+ *
+ * Retrun: square of the number result
+ */
 int _sqrt_recursion(int x)
 {
 if (n < 0)
