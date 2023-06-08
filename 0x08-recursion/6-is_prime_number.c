@@ -3,6 +3,7 @@
 /**
  * _pri - method to get prime number
  * @n: number
+ * @y: counter to compare multiplication for method
  *
  * Return: square number
  */
