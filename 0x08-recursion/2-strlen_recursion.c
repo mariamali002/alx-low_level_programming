@@ -2,9 +2,9 @@
 
 /**
  * _strlen_recursion - calculate the string length
- * @s: string we need to get length
+ * @s: string
  *
- * Retrun: integer number
+ * Retrun: an integer number
  */
 int _strlen_recursion(char *s)
 {
