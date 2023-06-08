@@ -7,13 +7,13 @@
  *
  * Return: an integer number
  */
-int sqrt(int n, int i)
+int _sqrt(int n, int i)
 {
 if (i * i == n)
 return (i);
 if (i * i > n)
 return (-1);
-return (sqrt(n, i + 1));
+return (_sqrt(n, i + 1));
 }
 /**
  * _sqrt_recursion - method to get square of number
@@ -25,6 +25,6 @@ int _sqrt_recursion(int x)
 {
 if (n < 0)
 return (-1);
-return (sqrt(n, 0));
+return (_sqrt(n, 0));
 }
 
