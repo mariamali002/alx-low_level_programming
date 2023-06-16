@@ -4,7 +4,7 @@
 #include <limits.h>
 
 /**
- * malloc_checked - method to check the malloc
+ * malloc_checked - method to allocate memory with malloc
  * @b: unsigned int
  * Return: return pointer
  */
