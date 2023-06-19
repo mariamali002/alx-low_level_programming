@@ -7,6 +7,7 @@ i#ifndef DOG_H
  * @age: Second member
  * @owner: Third member
  *
+ * Description: long descrip
  */
 struct dog
 {
